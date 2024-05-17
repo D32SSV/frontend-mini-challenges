@@ -6,6 +6,7 @@ import TimerTest from "./practiceTest/TimerTest";
 import TimerWithUseEffect from "./practiceTest/TimerWithUseEffect";
 import Debouncer from "./practiceTest/Hooks/Debouncer";
 import Counter from "./components/Counter";
+import AnagramChecker from "./components/AnagramChecker";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <TimerTest/> */}
       {/* <TimerWithUseEffect /> */}
       {/* <Debouncer /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <AnagramChecker />
     </>
   );
 }
